@@ -424,7 +424,7 @@ def main():
     # Footer
     st.markdown("""
     <div class="footer">
-        Made with Streamlit ❤️ by Wajaht | © {year} | v1.1
+        Made with Streamlit❤️ by Farah Asghar | © 2025 | v1.1
     </div>
     """.format(year=datetime.now().year), unsafe_allow_html=True)
 

@@ -1,0 +1,14 @@
+# Data Sweeper Fairy
+
+Data Sweeper Fairy is a tool designed to help you clean, organize, and manage your data efficiently. Whether you're dealing with messy datasets or just need a quick way to tidy things up, this tool has you covered.
+
+## Features
+
+- **Data Cleaning**: Remove duplicates, handle missing values, and standardize formats.
+- **Data Organization**: Sort, filter, and categorize your data with ease.
+- **Customizable Rules**: Define your own rules for data processing.
+- **User-Friendly Interface**: Simple and intuitive design for seamless usage.
+
+## Installation
+
+To install the dependencies, run:

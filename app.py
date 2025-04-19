@@ -210,11 +210,13 @@ def show_data_stats(df):
         st.dataframe(df.describe().style.background_gradient(cmap='Blues'))
     
     with st.expander("🔍 Data Preview", expanded=False):
-        st.dataframe(df.head(10).style.set_properties(**{
-            'background-color': '#1e2229',
-            'color': 'white',
-            'border': '1px solid #2a2f3b'
-        })
+        st.dataframe(
+            df.head(10).style.set_properties(**{
+                'background-color': '#1e2229',
+                'color': 'white',
+                'border': '1px solid #2a2f3b'
+            })
+        )
 
 def visualize_data(df):
     """Interactive data visualization"""
@@ -424,7 +426,7 @@ def main():
     # Footer
     st.markdown("""
     <div class="footer">
-        Made with Streamlit❤️ by Farah Asghar | © 2025 | v1.1
+        Made with ❤️ by Farah Asghar | © {year} | v1.1
     </div>
     """.format(year=datetime.now().year), unsafe_allow_html=True)
 
